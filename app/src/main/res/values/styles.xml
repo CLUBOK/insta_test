@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/shape_divider</item>
+    </style>
+
+
+
+    <style name="my_iv_button" parent="AppTheme">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+<!--        <item name="android:tint">@color/colorAccent</item>-->
+    </style>
+
+    <style name="my_iv_avatar" parent="AppTheme">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/circular_image</item>
+        <item name="android:elevation">2dp</item>
+<!--        <item name="android:tint">@color/colorAccent</item>-->
+    </style>
+
+
+
+</resources>
